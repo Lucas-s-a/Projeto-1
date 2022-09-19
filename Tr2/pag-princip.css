@@ -1,0 +1,137 @@
+#container1{
+    display: flex;
+    flex-direction: column;
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+#container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    background: url(imgtr2/papel-adesivo-vinil-pet-cachorro-patas-osso-fundo-branco-3m-papel-adesivo-decoracao.jpg)repeat;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+#main-menu ul{
+    margin-top: 10px;
+    margin-left: 35em;
+    background: #06f160;
+    float:left
+}
+#main-menu ul li{
+    float:left
+}
+#main-menu ul a{
+    font-size: 1.5em;
+    display: block;
+    padding: 0.5em 1.7em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.712);
+}
+#main-menu ul a:hover{
+    color: #06f160;
+    background:#07a13a;
+}
+.imagemc{
+    width:300px;
+    height:350px;
+    border-radius: 15px;
+}
+.logo{
+    width:55px;
+    height:55px;
+}
+#iespecial{
+    border: 10px solid green;
+}
+.intro{
+    font-size: 30px;
+}
+.texto2{
+    margin-left: -3.5em;
+}
+.bloco1{
+    background: rgb(3, 59, 8);
+    padding: 5px;
+    text-align: center;
+}
+.bloco3{
+    margin-left:200px;
+}
+.bloco4{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    background: #0fbe1d;
+    max-width: 450px;
+    max-height: 350px;
+    padding: 30px;
+}
+.bloco5{
+    margin-right:200px;
+}
+.rodape{
+    background: rgb(3, 59, 8);
+    padding: 20px;
+    margin-top: 120px;
+}
+.imagerdp{
+    width:25px;
+    height:25px;
+}
+@media(max-width:1659px){
+    #main-menu ul{
+        margin-left: 28em;
+    }
+    .bloco3{
+        margin-left:initial;
+    }
+    .bloco5{
+        margin-right:initial;
+    }
+}
+@media(max-width:1400px){
+    #main-menu ul{
+        margin-left: 20em;
+    }
+    #container2{
+        flex-wrap:wrap
+    }
+}
+@media(max-width:1353px){
+    #main-menu ul{
+        margin-left: 17em;
+    }
+}
+@media(max-width:1145px){
+    #main-menu ul{
+        margin-left: 5em;
+    }
+    #container2{
+        justify-content: initial;
+    }
+}
+@media(max-width:700px){
+    #main-menu ul{
+        margin-left: initial;
+    }
+}
+@media(max-width:333px){
+    .bloco4{
+        max-height: initial;
+        max-height: initial;
+    }
+    .bloco1{
+        text-align: initial;
+    }
+}
+

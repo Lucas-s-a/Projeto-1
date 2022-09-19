@@ -1,0 +1,64 @@
+body{
+    background: url(imgtr2/papel-adesivo-vinil-pet-cachorro-patas-osso-fundo-branco-3m-papel-adesivo-decoracao.jpg)repeat;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+#main-menu ul{
+    background: #06f160;
+    float:left
+}
+#main-menu ul li{
+    float:left
+}
+#main-menu ul a{
+    font-size: 2em;
+    display: block;
+    padding: 0.5em 2.1em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.712);
+}
+#main-menu ul a:hover{
+    color: #06f160;
+    background:#07a13a;
+}
+#container3{
+    background-color: whitesmoke;
+    display:flex;
+    width: 500px;
+    height: 450px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+}
+.bloco1{
+    margin-left: 20em;
+}
+.bloco2{
+    margin-top:6em;
+    margin-left: 30em;
+}
+.bloco3{
+    margin-left: 40em;
+    margin-top:1em;
+}
+@media(max-width:1400px){
+    #container{
+        flex-direction: column;
+    }
+}
+@media(max-width:1000px){
+    .bloco2{
+        margin-left: 10em;
+    }
+    .bloco1{
+        margin-left: 10em;
+    }
+    .bloco3{
+        margin-left: 20em;
+    }
+
+}
